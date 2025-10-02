@@ -1,5 +1,4 @@
 # Cronut Javax: A Clojure Companion to Quartz
-## With legacy Javax support
 
 [![Cronut Javax Test](https://github.com/factorhouse/cronut-javax/actions/workflows/ci.yml/badge.svg)](https://github.com/factorhouse/cronut-javax/actions/workflows/ci.yml)
 [![Clojars Project](https://img.shields.io/clojars/v/io.factorhouse/cronut-javax.svg)](https://clojars.org/io.factorhouse/cronut-javax)
