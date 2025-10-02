@@ -1,11 +1,12 @@
-# Cronut Javax: A Clojure Companion to Quartz (Legacy Javax Support)
+# Cronut Javax: A Clojure Companion to Quartz
+## With legacy Javax support
 
-[![Cronut Test](https://github.com/factorhouse/cronut/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/factorhouse/cronut/actions/workflows/ci.yml)
-[![Clojars Project](https://img.shields.io/clojars/v/io.factorhouse/cronut.svg)](https://clojars.org/io.factorhouse/cronut)
+[![Cronut Javax Test](https://github.com/factorhouse/cronut-javax/actions/workflows/ci.yml/badge.svg)](https://github.com/factorhouse/cronut-javax/actions/workflows/ci.yml)
+[![Clojars Project](https://img.shields.io/clojars/v/io.factorhouse/cronut-javax.svg)](https://clojars.org/io.factorhouse/cronut-javax)
 
 # Summary
 
-[Cronut](https://github.com/factorhouse/cronut) provides a data-first [Clojure](https://clojure.org/) wrapper
+[Cronut-Javax](https://github.com/factorhouse/cronut-javax) provides a data-first [Clojure](https://clojure.org/) wrapper
 for [Quartz Scheduler](https://github.com/quartz-scheduler/quartz) version `2.4.0`, compatible
 with [Javax](https://jakarta.ee/blogs/javax-jakartaee-namespace-ecosystem-progress/).
 
@@ -15,7 +16,7 @@ Cronut supports **in-memory** scheduling of jobs within a single JVM. JDBC and d
 
 | Project                                                             | Desription                                                                | Clojars Project                                                                                                                                 |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [cronut](https://github.com/factorhouse/cronut)                     | Cronut with [Jakarta](https://en.wikipedia.org/wiki/Jakarta_EE) support   | [![Clojars Project](https://img.shields.io/clojars/v/io.factorhouse/cronut-javax.svg)](https://clojars.org/io.factorhouse/cronut-javax)         |
+| [cronut](https://github.com/factorhouse/cronut)                     | Cronut with [Jakarta](https://en.wikipedia.org/wiki/Jakarta_EE) support   | [![Clojars Project](https://img.shields.io/clojars/v/io.factorhouse/cronut.svg)](https://clojars.org/io.factorhouse/cronut)               |
 | [cronut-integrant](https://github.com/factorhouse/cronut-integrant) | [Integrant](https://github.com/weavejester/integrant) bindings for Cronut | [![Clojars Project](https://img.shields.io/clojars/v/io.factorhouse/cronut-integrant.svg)](https://clojars.org/io.factorhouse/cronut-integrant) |
 
 # Contents
