@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## [1.2.2] - 2026-01-06
+
+- Update Clojure and minor dependencies
+
 ## [1.2.1] - 2025-10-25
 
 - Update to org.quartz-scheduler/quartz 2.4.1
@@ -8,7 +12,7 @@ All notable changes to this project will be documented in this file. This change
 ## [1.2.0] - 2025-10-02
 
 - Separate jobs and opts, move to group/name rather than identity
-- 
+ 
 ## [1.1.0] - 2025-10-02
 
 - Breakout cronut-integrant and cronut-javax into separate project repositories
