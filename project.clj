@@ -1,4 +1,4 @@
-(defproject io.factorhouse/cronut-javax "1.2.2"
+(defproject io.factorhouse/cronut-javax "1.2.3"
 
   :description "A Clojure companion to Quartz with Javax compatibility"
 
@@ -16,8 +16,8 @@
   :profiles {:dev   {:resource-paths ["dev-resources"]
                      :dependencies   [[ch.qos.logback/logback-classic "1.3.16"]
                                       [org.slf4j/slf4j-api "2.0.17"]
-                                      [org.clojure/core.async "1.8.741"]
-                                      [clj-kondo "2025.12.23" :exclusions [org.clojure/tools.reader]]]}
+                                      [org.clojure/core.async "1.9.865"]
+                                      [clj-kondo "2026.01.19" :exclusions [org.clojure/tools.reader]]]}
              :smoke {:pedantic? :abort}}
 
   :aliases {"check"  ["with-profile" "+smoke" "check"]
